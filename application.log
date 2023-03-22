@@ -1,0 +1,3 @@
+2023-03-22 20:22:30.051  INFO 64993 --- [Test worker] c.e.h.HelloSpringApplicationTests        : Starting HelloSpringApplicationTests using Java 11.0.11 on 1100345M01 with PID 64993 (started by a1100345 in /Users/a1100345/study/spring/github/hello-spring)
+2023-03-22 20:22:30.053  INFO 64993 --- [Test worker] c.e.h.HelloSpringApplicationTests        : The following 1 profile is active: "local"
+2023-03-22 20:22:31.828  INFO 64993 --- [Test worker] c.e.h.HelloSpringApplicationTests        : Started HelloSpringApplicationTests in 2.191 seconds (JVM running for 3.884)
