@@ -1,3 +1,40 @@
-2023-03-22 20:22:30.051  INFO 64993 --- [Test worker] c.e.h.HelloSpringApplicationTests        : Starting HelloSpringApplicationTests using Java 11.0.11 on 1100345M01 with PID 64993 (started by a1100345 in /Users/a1100345/study/spring/github/hello-spring)
-2023-03-22 20:22:30.053  INFO 64993 --- [Test worker] c.e.h.HelloSpringApplicationTests        : The following 1 profile is active: "local"
-2023-03-22 20:22:31.828  INFO 64993 --- [Test worker] c.e.h.HelloSpringApplicationTests        : Started HelloSpringApplicationTests in 2.191 seconds (JVM running for 3.884)
+2023-03-24 10:45:18.832  INFO 28898 --- [restartedMain] c.e.hellospring.HelloSpringApplication   : Starting HelloSpringApplication using Java 11.0.11 on 1100345M01 with PID 28898 (/Users/a1100345/study/spring/github/hello-spring/build/classes/java/main started by a1100345 in /Users/a1100345/study/spring/github/hello-spring)
+2023-03-24 10:45:18.855  INFO 28898 --- [restartedMain] c.e.hellospring.HelloSpringApplication   : The following 1 profile is active: "local"
+2023-03-24 10:45:18.935  INFO 28898 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-03-24 10:45:18.936  INFO 28898 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-03-24 10:45:19.874  INFO 28898 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-03-24 10:45:19.885  INFO 28898 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-24 10:45:19.885  INFO 28898 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-03-24 10:45:19.941  INFO 28898 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-03-24 10:45:19.942  INFO 28898 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1005 ms
+2023-03-24 10:45:20.232  INFO 28898 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-03-24 10:45:20.262  INFO 28898 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-03-24 10:45:20.273  INFO 28898 --- [restartedMain] c.e.hellospring.HelloSpringApplication   : Started HelloSpringApplication in 2.444 seconds (JVM running for 3.418)
+2023-03-24 10:45:25.692  INFO 28898 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-24 10:45:25.694  INFO 28898 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-03-24 10:45:25.696  INFO 28898 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-03-24 10:45:29.182  INFO 28898 --- [http-nio-8080-exec-3] c.e.hellospring.resource.HelloResource   : call Hello API 1
+2023-03-24 10:46:16.126  INFO 29186 --- [restartedMain] c.e.hellospring.HelloSpringApplication   : Starting HelloSpringApplication using Java 11.0.11 on 1100345M01 with PID 29186 (/Users/a1100345/study/spring/github/hello-spring/build/classes/java/main started by a1100345 in /Users/a1100345/study/spring/github/hello-spring)
+2023-03-24 10:46:16.127  INFO 29186 --- [restartedMain] c.e.hellospring.HelloSpringApplication   : The following 1 profile is active: "local"
+2023-03-24 10:46:16.182  INFO 29186 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-03-24 10:46:16.182  INFO 29186 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-03-24 10:46:16.999  INFO 29186 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-03-24 10:46:17.010  INFO 29186 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-24 10:46:17.011  INFO 29186 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-03-24 10:46:17.073  INFO 29186 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-03-24 10:46:17.073  INFO 29186 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 890 ms
+2023-03-24 10:46:17.488  INFO 29186 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-03-24 10:46:17.521  INFO 29186 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-03-24 10:46:17.532  INFO 29186 --- [restartedMain] c.e.hellospring.HelloSpringApplication   : Started HelloSpringApplication in 1.818 seconds (JVM running for 2.308)
+2023-03-24 10:46:31.134  INFO 29186 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-24 10:46:31.135  INFO 29186 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-03-24 10:46:31.137  INFO 29186 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2023-03-24 10:46:31.159  INFO 29186 --- [http-nio-8080-exec-1] c.e.hellospring.resource.HelloResource   : call Hello API 1
+2023-03-24 10:46:31.458  INFO 29186 --- [http-nio-8080-exec-2] c.e.hellospring.resource.HelloResource   : call Hello API 1
+2023-03-24 10:46:34.513  INFO 29186 --- [http-nio-8080-exec-3] c.e.hellospring.resource.HelloResource   : call World API 1
+2023-03-24 10:47:10.251  INFO 29976 --- [Test worker] c.e.h.HelloSpringApplicationTests        : Starting HelloSpringApplicationTests using Java 11.0.11 on 1100345M01 with PID 29976 (started by a1100345 in /Users/a1100345/study/spring/github/hello-spring)
+2023-03-24 10:47:10.253  INFO 29976 --- [Test worker] c.e.h.HelloSpringApplicationTests        : The following 1 profile is active: "local"
+2023-03-24 10:47:11.746  INFO 29976 --- [Test worker] c.e.h.HelloSpringApplicationTests        : Started HelloSpringApplicationTests in 1.853 seconds (JVM running for 3.259)
+2023-03-24 10:48:26.580  INFO 30661 --- [Test worker] c.e.h.HelloSpringApplicationTests        : Starting HelloSpringApplicationTests using Java 11.0.11 on 1100345M01 with PID 30661 (started by a1100345 in /Users/a1100345/study/spring/github/hello-spring)
+2023-03-24 10:48:26.581  INFO 30661 --- [Test worker] c.e.h.HelloSpringApplicationTests        : The following 1 profile is active: "local"
+2023-03-24 10:48:27.864  INFO 30661 --- [Test worker] c.e.h.HelloSpringApplicationTests        : Started HelloSpringApplicationTests in 1.622 seconds (JVM running for 3.072)

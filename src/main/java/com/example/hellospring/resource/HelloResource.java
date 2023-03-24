@@ -16,13 +16,19 @@ public class HelloResource {
 
     @GetMapping("/")
     public String index() {
-        return "Index Page";
+        return "Hello Spring!!!";
     }
 
     @GetMapping("/hello")
-    public String index(HttpSession session) {
-        logger.info("call Hello API 1");
-        return session.getId() + "\n" + "Hello " + session.getAttribute("name");
+    public String hello(HttpSession session) {
+        logger.info("call Hello API");
+        return session.getId() + "\n" + "Hello";
+    }
+
+    @GetMapping("/world")
+    public String world(HttpSession session) {
+        logger.info("call World API");
+        return session.getId() + "\n" + "World";
     }
 
     @GetMapping("/hello/{name}")
